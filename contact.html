@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Request a Quote | City Metal Recyclers</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- EmailJS (if using for form submission) -->
+   
+</head>
+<body>
+    <header id="navbar">
+        <div class="container navbar-content">
+            <div class="logo">
+                <span>ROYAL SCRAP WALA</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#materials">Materials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ <br>
+ <br>
+    <main>
+        <section class="contact-quote-section section-padding">
+            <div class="container contact-quote-grid">
+                <!-- Left Column: Request a Quote Form -->
+                <div class="quote-form-column">
+                    <h2>Request a Quote</h2>
+                    <form action="https://formsubmit.co/ashmahfooz502@gmail.com"
+                        method="POST"
+                        class="quote-form"
+                        id="quoteForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="material">Material Type</label>
+                            <select id="material" name="material" required>
+                                <option value="">Select Material</option>
+                                <option value="Iron">Iron</option>
+                                <option value="Steel">Steel</option>
+                                <option value="Plastic">Plastic</option>
+                                <option value="Paper">Paper</option>
+                                <option value="Copper">Copper</option>
+                                <option value="Aluminum">Aluminum</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Approximate Quantity (kg)</label>
+                            <input type="number" id="quantity" name="quantity" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Quote</button>
+                    </form>
+                    <div id="quote-success">Thank you! Your request has been sent.</div>
+                </div>
+                <!-- Right Column: Contact Info -->
+                <div class="contact-info-column">
+                    <h2>Contact Information</h2>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> Bada Talab, Hindpiri, Ranchi, Jharkhand</p>
+                        <p><i class="fas fa-phone"></i> +91 97715 65296</p>
+                        <p><i class="fas fa-envelope"></i> tagalabusiness@gmail.com</p>
+                        <ul>
+                            <li><i class="fas fa-clock"></i> Mon-Sat: 9am - 6pm</li>
+                            <li><i class="fas fa-globe"></i> www.royalscrapwala.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps?q=Ranchi&output=embed"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="footer-bottom">
+        
+    <div class="footer-container">
+        <!-- Column 1: About -->
+        <div class="footer-col">
+            <h3>About Us</h3>
+            <p>
+                Ranchi Scrap is dedicated to providing top prices for all types of scrap materials. We offer convenient pickup, eco-friendly recycling, and reliable service for homes and businesses across Ranchi.
+            </p>
+            <div class="footer-social">
+        <a href="https://www.facebook.com/profile.php?id=100083205248836" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/919771565296" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+    </div>
+        </div>
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#materials">Materials Accepted</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Column 3: Contact Info -->
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <ul class="footer-contact">
+                <li><i class="fa fa-address-card"></i>Bada Talab, Hindpiri , Ranchi</li>
+                <li><i class="fas fa-phone"></i> +91 9771565296</li>
+                <li><i class="fas fa-envelope"></i> tagalabusiness@gmail.com</li>
+                <li><i class="fas fa-clock"></i> Mon-Sat: 9am - 6pm</li>
+            </ul>
+        </div>
+        <!-- Column 4: Address Map -->
+        <div class="footer-col">
+            <h3>Our Location</h3>
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps?q=Ranchi&output=embed" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+        &copy; 2025 Royal Scrap Wala - Ranchi. All rights reserved.
+    </div>
+<script src="script.js"></script>
+<script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbySFdmcyfK2EpOegoB4CTf_8q-pNFtt5xqp6nWklpIkeF9BhFEpGOqBcD2i-U8PCga6/exec"; // Google Script URL
+    const form = document.getElementById("quoteForm");
+    const responseMsg = document.getElementById("response");
+
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+
+      const data = {
+        name: form.name.value,
+        email: form.email.value,
+        phone: form.phone.value,
+        material: form.material.value,
+        quantity: form.quantity.value,
+        message: form.message.value
+      };
+
+      fetch(scriptURL, {
+        method: "POST",
+        body: JSON.stringify(data)
+      })
+      .then(res => res.json())
+      .then(res => {
+        responseMsg.innerText = "✅ Quote submitted successfully!";
+        form.reset();
+      })
+      .catch(err => {
+        responseMsg.innerText = "❌ Error submitting quote!";
+        console.error(err);
+      });
+    });
+</script>
+       
+      
+
+    
+       
+</body>
+</html>
